@@ -1,0 +1,8 @@
+elements:
+  searchBox:
+    findBy: css
+    locator: input[name='q']
+    timeout: 10
+  searchButton:
+    findBy: css
+    locator: input[name='btnK']
