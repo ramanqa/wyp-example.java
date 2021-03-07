@@ -1,7 +1,7 @@
 elements:
-  containersss:
+  container:
     findBy: css
-    locator: form div
+    locator: form
     timeout: 20
   searchBox:
     findBy: css

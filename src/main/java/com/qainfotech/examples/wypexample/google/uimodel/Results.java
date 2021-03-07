@@ -1,5 +1,6 @@
 package com.qainfotech.examples.wypexample.google.uimodel;
 
+import com.qainfotech.tap.boilerplates.wyp.TestSession;
 import com.qainfotech.tap.boilerplates.wyp.YamlPage;
 import com.qainfotech.tap.boilerplates.wyp.YamlWebElement;
 import org.openqa.selenium.WebDriver;
@@ -9,8 +10,8 @@ import com.jcabi.aspects.Loggable;
 @Loggable
 public class Results extends YamlPage {
     
-    public Results(WebDriver driver){
-        super(driver);
+    public Results(TestSession session){
+        super(session);
     }
 
     public Result get(Integer index){
