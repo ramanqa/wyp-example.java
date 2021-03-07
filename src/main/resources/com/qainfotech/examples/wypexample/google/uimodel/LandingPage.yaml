@@ -1,8 +1,12 @@
 elements:
+  containersss:
+    findBy: css
+    locator: form div
+    timeout: 20
   searchBox:
     findBy: css
     locator: input[name='q']
-    timeout: 10
+    timeout: 60
   searchButton:
     findBy: css
     locator: input[name='btnK']

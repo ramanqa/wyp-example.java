@@ -4,7 +4,9 @@ import com.qainfotech.tap.boilerplates.wyp.YamlPage;
 import com.qainfotech.tap.boilerplates.wyp.YamlWebElement;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
+import com.jcabi.aspects.Loggable;
 
+@Loggable
 public class Results extends YamlPage {
     
     public Results(WebDriver driver){

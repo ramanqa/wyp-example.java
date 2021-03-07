@@ -2,7 +2,9 @@ package com.qainfotech.examples.wypexample.google.uimodel;
 
 import com.qainfotech.tap.boilerplates.wyp.YamlPage;
 import org.openqa.selenium.WebDriver;
+import com.jcabi.aspects.Loggable;
 
+@Loggable
 public class LandingPage extends YamlPage {
 
     public LandingPage(WebDriver driver){
